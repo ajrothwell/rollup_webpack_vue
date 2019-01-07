@@ -1,0 +1,24 @@
+{
+  "name": "rollup_webpack_vue",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production npx webpack --display-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server"
+  },
+  "dependencies": {
+    "rollup_vue": "https://github.com/ajrothwell/rollup_vue#753b37d81b1375f5b03824bb08e7cc826f52a766",
+    "vue": "^2.5.17",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
