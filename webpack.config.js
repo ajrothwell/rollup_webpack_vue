@@ -6,7 +6,9 @@ const Visualizer = require('webpack-visualizer-plugin');
 module.exports = {
   // mode: 'development',
   mode: 'production',
-  entry: './src/index.js',
+  entry: {
+    app: ['./public/index.html', './src/index.js'],
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
@@ -14,6 +16,10 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.html/,
+        loader: 'file-loader?name=[name].[ext]',
+      },
       {
         test: /\.vue$/,
         loader: 'vue-loader'

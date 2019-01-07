@@ -1,5 +1,5 @@
-import { square } from './fun';
-// import { Badge } from 'rollup_vue';
+import { square } from './localFunctions';
+import { Badge } from 'rollup_vue';
 
 import Vue from 'vue';
 import App from './components/App.vue';
