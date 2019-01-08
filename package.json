@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server"
   },
   "dependencies": {
-    "rollup_vue": "https://github.com/ajrothwell/rollup_vue#753b37d81b1375f5b03824bb08e7cc826f52a766",
+    "rollup_vue_4": "https://github.com/ajrothwell/rollup_vue_4#2976d163efb00a4c60188ae3d2b4e14ca9ebf3e9",
     "vue": "^2.5.17",
     "webpack-visualizer-plugin": "^0.1.11"
   },

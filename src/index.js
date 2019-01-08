@@ -1,5 +1,5 @@
 import { square } from './localFunctions';
-import { Badge } from 'rollup_vue';
+import { Badge } from 'rollup_vue_4';
 
 import Vue from 'vue';
 import App from './components/App.vue';
