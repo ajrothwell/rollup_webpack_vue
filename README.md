@@ -1,3 +1,7 @@
 # webpack_vue_4
 this is used with rollup_vue_4 for testing tree-shaking
 https://github.com/ajrothwell/rollup_vue_4
+
+It also pulls in es6 modules from localFunctions.js
+
+It also experiments with splitChunks.
