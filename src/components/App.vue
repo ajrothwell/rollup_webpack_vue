@@ -27,6 +27,10 @@
 </template>
 
 <script>
+
+  import { ExternalLink } from 'rollup_vue_4';
+  import { Badge } from 'rollup_vue_4';
+
   // import Vue from 'vue';
   // import { ExternalLink } from 'comps_test';
   // import map from 'lodash/map';
@@ -35,10 +39,8 @@
   // console.log('rollupTest:', rollupTest);
   // import { ExternalLink as Ext } from 'rollup_test';
   // console.log('ExternalLink:', ExternalLink);
-  import { ExternalLink } from 'rollup_vue_4';
   // import ExternalLink from '../../node_modules/comps_test/components/ExternalLink.vue';
   // import ExternalLink from '../../node_modules/rollup_test/src/components/ExternalLink.vue';
-  import { Badge } from 'rollup_vue_4';
   // import { Callout } from 'rollup_test/Callout.vue';
   // import { Badge } from 'comps_test';
   // import Badge from '../../node_modules/comps_test/components/Badge.vue';
